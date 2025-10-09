@@ -31,6 +31,7 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
+
 console.log(createPlatform(350,700, 100, 8))
 console.log(createPlatform(600,600, 120, 8))
 console.log(createPlatform(1300,650, 1, 1))
@@ -41,15 +42,18 @@ console.log(createPlatform(400,500, 120, 8))
 console.log(createPlatform(400,400, 140, 8))
 console.log(createPlatform(400,423, 1, 1))
 console.log(createPlatform(600,300, 120, 8))
-console.log(createPlatform(750,200, 120, 8))
-console.log(createPlatform(1100,200, 120, 8))
-console.log(createPlatform(1100,200, 120, 8))
-console.log(createPlatform(1100,200, 120, 8))
-console.log(createPlatform(1100,200, 120, 8))
+console.log(createPlatform(900,200, 120, 8))
+console.log(createPlatform(1125,200, 120, 8))
+
 
 
 
     // TODO 3 - Create Collectables
+
+createCollectable("max",525, 700);
+createCollectable("grace",600, 200);
+createCollectable("diamond",500, 400);
+createCollectable("steve",1100, 700);
 
 
 
